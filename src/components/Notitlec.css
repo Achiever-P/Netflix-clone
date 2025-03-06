@@ -1,0 +1,25 @@
+.cards{
+    margin-top: 90px;
+    margin-bottom: -20px;
+}
+
+.cards h2{
+    margin-bottom: 10px;
+}
+
+.list{
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+}
+
+.list::-webkit-scrollbar {
+    display: none;
+}
+
+.list img{
+    width: 225px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
